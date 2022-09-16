@@ -16,25 +16,25 @@ steps:
   - name: build-2
     image: openjdk
     commands:
-      - cd TP2/AppCollector/src/appcollector/
-      - javac AppCollector.java
+      - cd TP2/AppCollector/
+      - javac -d bin -sourcepath src src/appcollector/AppCollector.java
 
-#  - name: build-3
-#    image: openjdk
-#    commands:
-#      - cd TP3/appUCA/src/appuca/
-#      - javac AppliDocteur.java
-#
-#  - name: build-4
-#    image: openjdk
-#    commands:
-#      - cd TP4/TextEditor/src/texteditor/
-#      - javac TextEditor.java
-#
+  - name: build-3
+    image: openjdk
+    commands:
+      - cd TP3/appUCA/
+      - javac -d bin -sourcepath src src/appuca/AppliDocteur.java
+
+  - name: build-4
+    image: openjdk
+    commands:
+      - cd TP4/TextEditor/
+      - javac -d bin -sourcepath src src/texteditor/TextEditor.java
+
 #  - name: code-analysis-1
 #    image: openjdk
 #    commands:
-#      - cd TP2/AppliDocteur/src/applidocteur/
+#      - cd TP2/AppliDocteur/
 #    secrets: [ SECRET_SONAR_LOGIN ]
 #    settings:
 #      sonar_host: https://codefirst.iut.uca.fr/sonar/
