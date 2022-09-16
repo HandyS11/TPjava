@@ -13,27 +13,24 @@ steps:
       - cd TP1/AppCollector/src/appcollector/
       - javac AppCollector.java
 
-  - name: build-2
-    image: openjdk
-    commands:
-      - cd TP2/AppliDocteur/src/applidocteur/
-      - javac AppliDocteur.java
-    depends_on: [build-1]
-
-- name: build-3
-    image: openjdk
-    commands:
-      - cd TP3/appUCA/src/appuca/
-      - javac AppliDocteur.java
-    depends_on: [build-2]
-
-- name: build-4
-    image: openjdk
-    commands:
-      - cd TP4/TextEditor/src/texteditor/
-      - javac TextEditor.java
-    depends_on: [build-3]
-
+#  - name: build-2
+#    image: openjdk
+#    commands:
+#      - cd TP2/AppliDocteur/src/applidocteur/
+#      - javac AppliDocteur.java
+#
+#  - name: build-3
+#    image: openjdk
+#    commands:
+#      - cd TP3/appUCA/src/appuca/
+#      - javac AppliDocteur.java
+#
+#  - name: build-4
+#    image: openjdk
+#    commands:
+#      - cd TP4/TextEditor/src/texteditor/
+#      - javac TextEditor.java
+#
 #  - name: code-analysis-1
 #    image: openjdk
 #    commands:
@@ -44,3 +41,4 @@ steps:
 #      sonar_token:
 #        from_secret: SECRET_SONAR_LOGIN
 #      depends_on: [build-1]
+#
