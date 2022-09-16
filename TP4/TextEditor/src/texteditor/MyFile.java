@@ -24,6 +24,11 @@ public class MyFile {
     }
     
     public void editLine(int line, String data) {
+        if (line >= this.datas.size()) {
+            for (int i = this.datas.size(); i <= line; i++) {
+                this.datas.add((new String("")));
+            }
+        }
         this.datas.set(line, data);
     }
 }

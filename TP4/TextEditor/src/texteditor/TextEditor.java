@@ -33,8 +33,8 @@ public class TextEditor {
         DataSaver dataSaver = new DataSaver(file);
         
         try {
-            //myFile.setMyFile(stub.load());
-            myFile.setMyFile(dataLoader.load());
+            myFile.setMyFile(stub.load());
+            //myFile.setMyFile(dataLoader.load());
         } catch (IOException e) {
             System.err.println("Error while loading datas! " + e);
         }  

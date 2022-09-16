@@ -3,15 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/TextEditor.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/utils/KeyboardReader.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/datasaving/IDataSaver.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/datasaving/IDataLoader.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/MyFile.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/datasaving/DataSaver.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/utils/Renderer.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/datasaving/DataLoader.java</file>
-            <file>file:/home/UCA/vaclergue/NetBeansProjects/TextEditor/src/texteditor/datasaving/Stub.java</file>
+            <file>file:/home/UCA/vaclergue/licence/Java/TPremiseAniveau/TP4/TextEditor/src/texteditor/MyFile.java</file>
+            <file>file:/home/UCA/vaclergue/licence/Java/TPremiseAniveau/TP4/TextEditor/src/texteditor/datasaving/Stub.java</file>
+            <file>file:/home/UCA/vaclergue/licence/Java/TPremiseAniveau/TP4/TextEditor/src/texteditor/TextEditor.java</file>
+            <file>file:/home/UCA/vaclergue/licence/Java/TPremiseAniveau/TP4/TextEditor/src/texteditor/datasaving/IDataLoader.java</file>
+            <file>file:/home/UCA/vaclergue/licence/Java/TPremiseAniveau/TP4/TextEditor/src/texteditor/datasaving/IDataSaver.java</file>
+            <file>file:/home/UCA/vaclergue/licence/Java/TPremiseAniveau/TP4/TextEditor/src/texteditor/datasaving/DataLoader.java</file>
+            <file>file:/home/UCA/vaclergue/licence/Java/TPremiseAniveau/TP4/TextEditor/src/texteditor/datasaving/DataSaver.java</file>
         </group>
     </open-files>
 </project-private>
