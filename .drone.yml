@@ -13,12 +13,12 @@ steps:
       - cd TP1/AppliDocteur/
       - javac -d bin -sourcepath src src/applidocteur/AppliDocteur.java
 
-#  - name: build-2
-#    image: openjdk
-#    commands:
-#      - cd TP2/AppCollector/src/appcollector/
-#      - javac AppCollector.java
-#
+  - name: build-2
+    image: openjdk
+    commands:
+      - cd TP2/AppCollector/src/appcollector/
+      - javac AppCollector.java
+
 #  - name: build-3
 #    image: openjdk
 #    commands:
