@@ -22,8 +22,8 @@ steps:
   - name: build-3
     image: openjdk
     commands:
-      - cd TP3/appUCA/
-      - javac -d bin -sourcepath src src/appuca/AppliDocteur.java
+      - cd TP3/AppUCA/
+      - javac -d bin -sourcepath src src/appuca/AppUCA.java
 
   - name: build-4
     image: openjdk
