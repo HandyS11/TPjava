@@ -10,8 +10,8 @@ steps:
   - name: build-1
     image: openjdk
     commands:
-      - cd TP1/AppliDocteur/src/applidocteur/
-      - javac AppliDocteur.java
+      - cd TP1/AppliDocteur/
+      - javac -d bin -sourcepath src src/appdocteur/AppliDocteur.java
 
 #  - name: build-2
 #    image: openjdk
