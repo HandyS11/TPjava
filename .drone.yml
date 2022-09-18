@@ -31,14 +31,11 @@ steps:
       - cd TP4/TextEditor/
       - javac -d bin -sourcepath src src/texteditor/TextEditor.java
 
-#  - name: code-analysis-1
-#    image: openjdk
-#    commands:
-#      - cd TP2/AppliDocteur/
-#    secrets: [ SECRET_SONAR_LOGIN ]
-#    settings:
-#      sonar_host: https://codefirst.iut.uca.fr/sonar/
-#      sonar_token:
-#        from_secret: SECRET_SONAR_LOGIN
-#      depends_on: [build-1]
-#
+  - name: code-analysis-1
+    image: openjdk
+    secrets: [SECRET_SONAR_LOGIN]
+    settings:
+      sonar_host: https://codefirst.iut.uca.fr/sonar/
+      sonar_token:
+        from_secret: SECRET_SONAR_LOGIN
+      depends_on: [build-1]
