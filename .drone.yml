@@ -39,6 +39,7 @@ steps:
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
       java_binaries: target/classes
+      inclusions: **/*.java
       level: DEBUG
       showProfiling: true
       sources: ./TP1/
