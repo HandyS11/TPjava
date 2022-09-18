@@ -33,10 +33,12 @@ steps:
 
   - name: code-analysis-1
     image: aosapps/drone-sonar-plugin
+    commands:
+      - cd TP1/AppliDocteur/
+      - javac -d bin -sourcepath src src/applidocteur/AppliDocteur.java
     secrets: [SECRET_SONAR_LOGIN]
     settings:
       sonar_host: https://codefirst.iut.uca.fr/sonar/
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
-      java_binaries: target/classes
       depends_on: [build-1]
