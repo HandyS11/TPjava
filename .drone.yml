@@ -40,7 +40,6 @@ steps:
         from_secret: SECRET_SONAR_LOGIN
       java_binaries: target/classes
       level: DEBUG
-      inclusions: **/*.java
       showProfiling: true
       sources: ./TP1/
       depends_on: [build-1]
