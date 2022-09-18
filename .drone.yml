@@ -32,7 +32,7 @@ steps:
       - javac -d bin -sourcepath src src/texteditor/TextEditor.java
 
   - name: code-analysis-1
-    image: openjdk
+    image: aosapps/drone-sonar-plugin
     secrets: [SECRET_SONAR_LOGIN]
     settings:
       sonar_host: https://codefirst.iut.uca.fr/sonar/
