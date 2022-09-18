@@ -38,8 +38,9 @@ steps:
       sonar_host: https://codefirst.iut.uca.fr/sonar/
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
+      java_binaries: target/classes
       level: DEBUG
+      inclusions: **/*.java
       showProfiling: true
       sources: ./TP1/
-      usingProperties: false
       depends_on: [build-1]
