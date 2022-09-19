@@ -31,16 +31,16 @@ steps:
       - cd TP4/TextEditor/
       - javac -d bin -sourcepath src src/texteditor/TextEditor.java
 
-  - name: code-analysis-1
-    image: openjdk
-    image: aosapps/drone-sonar-plugin
-    secrets: [SECRET_SONAR_LOGIN]
-    settings:
-      sonar_host: https://codefirst.iut.uca.fr/sonar/
-      sonar_token:
-        from_secret: SECRET_SONAR_LOGIN
+#  - name: code-analysis-1
+#    image: openjdk
+#    image: aosapps/drone-sonar-plugin
+#    secrets: [SECRET_SONAR_LOGIN]
+#    settings:
+#      sonar_host: https://codefirst.iut.uca.fr/sonar/
+#      sonar_token:
+#        from_secret: SECRET_SONAR_LOGIN
 #      java_binaries: target/classes
-      level: DEBUG
+#      level: DEBUG
 #      showProfiling: true
 #      sources: ./TP1/AppliDocteur/src/applidocteur/
 #      depends_on: [build-1]
