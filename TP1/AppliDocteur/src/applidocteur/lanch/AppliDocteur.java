@@ -1,38 +1,36 @@
-package applidocteur;
+package applidocteur.lanch;
 
+import applidocteur.data.IDataLoader;
+import applidocteur.data.Stub;
 import applidocteur.modele.Manager;
-import applidocteur.utils.*;
+import applidocteur.modele.Patient;
+import applidocteur.utils.ChoiceReader;
+import applidocteur.utils.Renderer;
 
-/**
- *
- * @author vaclergue
- */
 public class AppliDocteur {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        System.out.println("Lancement de l'application");
+        System.out.println("Launching App");
         
         Renderer renderer = new Renderer();
         ChoiceReader choiceReader = new ChoiceReader();
+        IDataLoader dataLoader = new Stub();
         Manager manager = new Manager();
-        manager.createStub();
+        manager.addPatients(dataLoader.load());
         
         int opt = -1;
               
         while(opt != 0) {
-            //clear la console
             renderer.showMenu();
             opt = choiceReader.getIntInput();
             switch(opt) {
-                case 1 -> manager.createPatient(choiceReader.getData("First name"), choiceReader.getData("Last name"));
+                case 1 -> {
+                    manager.addPatient(new Patient(choiceReader.getData("First name"), choiceReader.getData("Last name")));
+                }
                 case 2 -> renderer.showPatients(manager.getPatients());
                 case 3 -> {}
             }
-            choiceReader.waitToGo();       
         }   
-        System.out.println("\nFermeture de l'application");
+        System.out.println("\nClosing App");
     }
 }

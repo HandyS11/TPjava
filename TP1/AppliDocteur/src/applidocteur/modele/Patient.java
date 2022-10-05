@@ -1,33 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package applidocteur.modele;
 
+import java.util.UUID;
 
-/**
- *
- * @author vaclergue
- */
 public class Patient {
+
+    private UUID uuid;
     private String firstName;
     private String lastName;   
 
-    Patient(String firstName, String lastName) {
+    public Patient(String firstName, String lastName) {
+        uuid = UUID.randomUUID();
         this.firstName = firstName;
         this.lastName = lastName;
     }
     
-    public String getFirstName() {
-        return firstName;
-    }
-    
-    public String getLastName() {
-        return lastName;
-    }
-    
     @Override
-    public String toString() {
-        return "- " + this.firstName + " " + this.lastName;
-    }
+    public String toString() { return String.format("- %s\t%s\t%s", uuid, firstName, lastName); }
 }
