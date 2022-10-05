@@ -1,4 +1,4 @@
-package applidocteur.lanch;
+package applidocteur.launch;
 
 import applidocteur.data.IDataLoader;
 import applidocteur.data.Stub;

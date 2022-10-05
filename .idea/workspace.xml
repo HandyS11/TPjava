@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525b920d-2bc0-45b9-bc88-f78aba729666" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/data/IDataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/AppliDocteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/lanch/AppliDocteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/modele/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/modele/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/modele/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/modele/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/utils/ChoiceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/utils/ChoiceReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/utils/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/utils/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/lanch/AppliDocteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/AppliDocteur/src/applidocteur/launch/AppliDocteur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="AppliDocteur" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="applidocteur.lanch.AppliDocteur" />
+      <option name="MAIN_CLASS_NAME" value="applidocteur.launch.AppliDocteur" />
       <module name="TP1" />
       <method v="2">
         <option name="Make" enabled="true" />
