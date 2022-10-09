@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="525b920d-2bc0-45b9-bc88-f78aba729666" name="Changes" comment="Add class diagram of TP2 + rename some things">
+    <list default="true" id="525b920d-2bc0-45b9-bc88-f78aba729666" name="Changes" comment="Add class diagram for TP1">
+      <change afterPath="$PROJECT_DIR$/save.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/AppliDocteur.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/AppliDocteur.mdj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/AppUCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/launch/AppUCA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/DataSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/DataSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/IDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/IDataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/IDataSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/IDataSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/Stub.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/datasaving/Stub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/HealfCare.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/Healthcare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/Iut.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/Iut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/sections/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/utils/KeyboardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/utils/KeyboardReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/utils/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/AppUCA/src/appuca/utils/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/MyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/model/MyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/launch/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/datasaving/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/datasaving/DataSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/DataSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/datasaving/IDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/IDataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/datasaving/IDataSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/IDataSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/datasaving/Stub.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/Stub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.AppCollector">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.AppUCA">
     <configuration name="AppCollector" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="appcollector.launch.AppCollector" />
       <module name="TP2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUCA" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="appuca.launch.AppUCA" />
+      <module name="TP3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -55,6 +89,7 @@
     <list>
       <item itemvalue="Application.AppliDocteur" />
       <item itemvalue="Application.AppCollector" />
+      <item itemvalue="Application.AppUCA" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665318644972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add class diagram for TP1">
+      <created>1665319034264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665319034264</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,9 +144,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fix some issue on TP1" />
     <MESSAGE value="Rework TP2" />
     <MESSAGE value="Add class diagram of TP2 + rename some things" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class diagram of TP2 + rename some things" />
+    <MESSAGE value="Add class diagram for TP1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class diagram for TP1" />
   </component>
 </project>

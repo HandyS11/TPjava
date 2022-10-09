@@ -17,19 +17,19 @@ steps:
     image: openjdk
     commands:
       - cd TP2/AppCollector/
-      - javac -d bin -sourcepath src src/appcollector/AppCollector.java
+      - javac -d bin -sourcepath src src/appcollector/launch/AppCollector.java
 
   - name: build-3
     image: openjdk
     commands:
       - cd TP3/AppUCA/
-      - javac -d bin -sourcepath src src/appuca/AppUCA.java
+      - javac -d bin -sourcepath src src/appuca/launch/AppUCA.java
 
   - name: build-4
     image: openjdk
     commands:
       - cd TP4/TextEditor/
-      - javac -d bin -sourcepath src src/texteditor/TextEditor.java
+      - javac -d bin -sourcepath src src/texteditor/launch/TextEditor.java
 
 #  - name: code-analysis-1
 #    image: openjdk

@@ -1,25 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package texteditor;
+package texteditor.launch;
 
 import java.io.IOException;
-import texteditor.datasaving.DataLoader;
-import texteditor.datasaving.DataSaver;
-import texteditor.datasaving.Stub;
+
+import texteditor.model.MyFile;
+import texteditor.data.DataLoader;
+import texteditor.data.DataSaver;
+import texteditor.data.Stub;
 import texteditor.utils.KeyboardReader;
 import texteditor.utils.Renderer;
 
-/**
- *
- * @author vaclergue
- */
 public class TextEditor {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         System.out.println("Launching..");
         
