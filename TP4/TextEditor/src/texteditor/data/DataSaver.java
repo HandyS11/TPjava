@@ -1,18 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package texteditor.data;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-/**
- *
- * @author vaclergue
- */
 public class DataSaver implements IDataSaver {
     
     private String fileName;
@@ -23,7 +14,7 @@ public class DataSaver implements IDataSaver {
     
     @Override
     public void save(List<String> datas) throws IOException {
-        try (FileWriter w = new FileWriter(new File(fileName))) {
+        try (FileWriter w = new FileWriter(fileName)) {
             for (String data : datas) {
                 w.write(data + "\n");
             }
