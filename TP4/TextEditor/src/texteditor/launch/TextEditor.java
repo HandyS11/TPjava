@@ -16,7 +16,7 @@ public class TextEditor {
 
         MyFile myFile = null;
         
-        String file = "myFile";
+        String file = "./TP4/TextEditor/myFile";
         IDataLoader dataLoader = new DataLoader(file); //new Stub();
         IDataSaver dataSaver = new DataSaver(file);
         

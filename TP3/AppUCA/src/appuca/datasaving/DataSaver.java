@@ -8,7 +8,7 @@ import java.util.List;
 
 public class DataSaver implements IDataSaver {
     
-    private final String file = "save.bin";
+    private final String file = "./TP3/AppUCA/save.bin";
     
     public void save(List<Section> sections) throws IOException {
         try (ObjectOutputStream s = new ObjectOutputStream(new FileOutputStream(file))) {

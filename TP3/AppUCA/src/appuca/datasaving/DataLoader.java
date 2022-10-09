@@ -8,7 +8,7 @@ import java.util.List;
 
 public class DataLoader implements IDataLoader {
     
-    private final String file = "save.bin";
+    private final String file = "./TP3/AppUCA/save.bin";
     
     public List<Section> load() throws IOException, ClassNotFoundException {
         try (ObjectInputStream s = new ObjectInputStream(new FileInputStream(file))) {
