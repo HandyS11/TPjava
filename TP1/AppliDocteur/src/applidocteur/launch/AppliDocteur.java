@@ -24,11 +24,8 @@ public class AppliDocteur {
             renderer.showMenu();
             opt = choiceReader.getIntInput();
             switch(opt) {
-                case 1 -> {
-                    manager.addPatient(new Patient(choiceReader.getData("First name"), choiceReader.getData("Last name")));
-                }
+                case 1 -> manager.addPatient(new Patient(choiceReader.getData("First name"), choiceReader.getData("Last name")));
                 case 2 -> renderer.showPatients(manager.getPatients());
-                case 3 -> {}
             }
         }   
         System.out.println("\nClosing App");
