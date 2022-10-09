@@ -3,7 +3,6 @@ package appcollector.collection;
 import appcollector.utils.KeyboardReader;
 import appcollector.utils.Renderer;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 

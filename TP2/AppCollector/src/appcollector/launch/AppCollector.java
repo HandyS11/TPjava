@@ -1,7 +1,7 @@
 package appcollector.launch;
 
 import appcollector.collection.Manager;
-import appcollector.data.IDataloader;
+import appcollector.data.IDataLoader;
 import appcollector.data.Stub;
 import appcollector.utils.KeyboardReader;
 import appcollector.utils.Renderer;
@@ -10,7 +10,7 @@ public class AppCollector {
 
     public static void main(String[] args) {
 
-        IDataloader dataLoader = new Stub();
+        IDataLoader dataLoader = new Stub();
         Manager manager = new Manager(dataLoader.load());
         Renderer renderer = new Renderer();
         KeyboardReader keyboardReader = new KeyboardReader();

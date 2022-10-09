@@ -7,7 +7,7 @@ import appcollector.collection.Mammal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Stub implements IDataloader {
+public class Stub implements IDataLoader {
 
     @Override
     public List<Animal> load() {
