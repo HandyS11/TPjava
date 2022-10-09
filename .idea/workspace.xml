@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="525b920d-2bc0-45b9-bc88-f78aba729666" name="Changes" comment="">
+    <list default="true" id="525b920d-2bc0-45b9-bc88-f78aba729666" name="Changes" comment="Fix some issue on TP1">
+      <change afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/data/IDataloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/data/Stub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/AppCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/launch/AppCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Mammal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Vertebrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/collection/Vertebrate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/launch/AppCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/launch/AppCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/utils/KeyboardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/utils/KeyboardReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/utils/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/AppCollector/src/appcollector/utils/Renderer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +37,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FiQrt31obd11ORNpPNvFoFeuYm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppCollector">
+    <configuration name="AppCollector" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="appcollector.launch.AppCollector" />
+      <module name="TP2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppliDocteur" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="applidocteur.launch.AppliDocteur" />
       <module name="TP1" />
@@ -38,6 +61,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AppliDocteur" />
+      <item itemvalue="Application.AppCollector" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664972626842</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fix some issue on TP1">
+      <created>1665317134543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665317134543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix some issue on TP1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some issue on TP1" />
   </component>
 </project>

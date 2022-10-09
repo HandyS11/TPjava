@@ -1,40 +1,33 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package appcollector.launch;
 
 import appcollector.collection.Manager;
+import appcollector.data.IDataloader;
+import appcollector.data.Stub;
+import appcollector.utils.KeyboardReader;
+import appcollector.utils.Renderer;
 
-/**
- *
- * @author vaclergue
- */
 public class AppCollector {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-         
-        Manager manager = new Manager();
-        
-        manager.getRenderer().printText("Launching...");
-        manager.createStub();
+
+        IDataloader dataLoader = new Stub();
+        Manager manager = new Manager(dataLoader.load());
+        Renderer renderer = new Renderer();
+        KeyboardReader keyboardReader = new KeyboardReader();
+
+        renderer.printText("Launching...");
         
         int opt = -1;
               
         while(opt != 0) {
-            //clear la console
-            manager.getRenderer().showMenu();
-            opt = manager.getKeyboardReader().getIntInput();
+            renderer.showMenu();
+            opt = keyboardReader.getIntInput();
             switch(opt) {
-                case 1 -> manager.getRenderer().showAnimals(manager.getAnimals());
-                case 2 -> { manager.addAnimal(); }
+                case 1 -> renderer.showAnimals(manager.getAnimals());
+                case 2 -> manager.addAnimal(renderer, keyboardReader);
             }
-            manager.getKeyboardReader().waitToGo();       
-        }   
-        manager.getRenderer().printText("Closing...");
+        }
+        renderer.printText("Closing...");
     }
     
 }

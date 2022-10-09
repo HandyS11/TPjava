@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package appcollector.collection;
 
-/**
- *
- * @author vaclergue
- */
 public class Mammal extends Vertebrate {
     
     private int nbLeg;

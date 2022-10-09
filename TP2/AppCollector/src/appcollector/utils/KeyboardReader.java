@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package appcollector.utils;
 
 import java.util.Scanner;
 
-/**
- *
- * @author vaclergue
- */
 public class KeyboardReader {
     
     Scanner sc = new Scanner(System.in);
@@ -20,13 +12,20 @@ public class KeyboardReader {
         return choice;
     }
     
-    public void waitToGo() {
-        System.out.print("\nType something to skip..");
-        sc.nextLine();
-    }
-    
     public String getData(String dataName) {
         System.out.print("\n" + dataName + ": ");
         return sc.nextLine();
+    }
+
+    public double getDouble(String dataName) {
+        System.out.print("\n" + dataName + ": ");
+        double choice = sc.nextInt();
+        sc.nextLine();
+        return choice;
+    }
+
+    public int getInt(String dataName) {
+        System.out.print("\n" + dataName + ": ");
+        return getIntInput();
     }
 }

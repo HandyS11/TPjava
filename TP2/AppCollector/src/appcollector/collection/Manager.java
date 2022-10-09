@@ -1,73 +1,59 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package appcollector.collection;
 
-import appcollector.collection.Animal;
-import appcollector.collection.Fish;
-import appcollector.collection.Mammal;
 import appcollector.utils.KeyboardReader;
 import appcollector.utils.Renderer;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- *
- * @author vaclergue
- */
 public class Manager {
-    
-    private static Renderer renderer = new Renderer();
-    private static KeyboardReader keyboardReader = new KeyboardReader();
-    private List<Animal> animals = new ArrayList<>();
-    
-    public Renderer getRenderer() {
-        return renderer;
+
+    private List<Animal> animals;
+
+    public Manager(List<Animal> animals) {
+        this.animals = animals;
     }
-    
-    public KeyboardReader getKeyboardReader() {
-        return keyboardReader;
-    }
-    
-    
+
     public List<Animal> getAnimals() {
         return Collections.unmodifiableList(animals);
     }
     
-    public void addAnimal() {
-        renderer.printText("\n\nYou will now add an annimal, please fill the field.");
+    public void addAnimal(Renderer renderer, KeyboardReader keyboardReader) {
+        renderer.printText("\n\nYou will now add an animal, please fill the fields.");
         renderer.showCategories();
         
         int opt = keyboardReader.getIntInput();
         switch(opt) {
-            case 1 -> {
-                this.createMammal();
-            }
-            case 2 -> {
-                this.createFish();
-            }
+            case 1 -> createMammal(keyboardReader);
+            case 2 -> createFish(keyboardReader);
+            default -> renderer.printText("Wrong option, addition abort!");
         }
     }
-    
-    private Mammal createMammal() {
-        return null;
+
+    // I must find a way to do this more efficiently
+    private void createMammal(KeyboardReader keyboardReader) {
+        Mammal mammal = new Mammal(keyboardReader.getData("Specie"),
+                                keyboardReader.getData("Gender"),
+                                keyboardReader.getDouble("Weight"),
+                                keyboardReader.getDouble("Length"),
+                                keyboardReader.getDouble("Speed"),
+                                keyboardReader.getInt("Number of bones"),
+                                keyboardReader.getInt("Number of legs")
+                );
+        animals.add(mammal);
     }
-    
-    private Fish createFish() {
-        return null;
-    }
-    
-    public void createStub() {
-        try {
-            animals.add(new Mammal("Lion", "Male", 250, 2.5, 50, 150, 4));
-            animals.add(new Mammal("Horse", "Female", 350, 2.5, 50, 175, 4));
-            animals.add(new Fish("Pufferfish", "Female", 0.3, 0.1, 5, 75, 0));
-            animals.add(new Fish("Cod", "Male", 0.8, 0.2, 20, 50, 300));
-        }
-        catch(Exception e) {
-            System.err.println(e);
-        }
+
+    // Same
+    private void createFish(KeyboardReader keyboardReader) {
+        Fish fish = new Fish(keyboardReader.getData("Specie"),
+                keyboardReader.getData("Gender"),
+                keyboardReader.getDouble("Weight"),
+                keyboardReader.getDouble("Length"),
+                keyboardReader.getDouble("Speed"),
+                keyboardReader.getInt("Number of bones"),
+                keyboardReader.getInt("Number of tortoiseshell")
+        );
+        animals.add(fish);
     }
 }
