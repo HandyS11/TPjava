@@ -1,18 +1,18 @@
 package texteditor.model;
 
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MyFile {
     
-    private List<String> datas = new ArrayList<>();
-    
-    public List<String> getMyFile() {
-        return this.datas;
-    }
-    
-    public void setMyFile(List<String> datas) {
+    private List<String> datas;
+
+    public MyFile(List<String> datas) {
         this.datas = datas;
+    }
+
+    public List<String> getMyFile() {
+        return Collections.unmodifiableList(datas);
     }
     
     public void editLine(int line, String data) {

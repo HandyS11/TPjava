@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="525b920d-2bc0-45b9-bc88-f78aba729666" name="Changes" comment="Rework TP3 and fix CI">
-      <change afterPath="$PROJECT_DIR$/myFile" afterDir="false" />
+    <list default="true" id="525b920d-2bc0-45b9-bc88-f78aba729666" name="Changes" comment="Fix class diagram TP3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/DataSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/DataSaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/IDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/IDataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/IDataSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/IDataSaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/Stub.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/data/Stub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/TextEditor.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor.mdj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/launch/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/launch/TextEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/model/MyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/model/MyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/utils/KeyboardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/utils/KeyboardReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/utils/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/TextEditor/src/texteditor/utils/Renderer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665321388608</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rework TP4">
+      <created>1665321890570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665321890570</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix class diagram TP3">
+      <created>1665322195304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665322195304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +156,8 @@
     <MESSAGE value="Add class diagram of TP2 + rename some things" />
     <MESSAGE value="Add class diagram for TP1" />
     <MESSAGE value="Rework TP3 and fix CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rework TP3 and fix CI" />
+    <MESSAGE value="Rework TP4" />
+    <MESSAGE value="Fix class diagram TP3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix class diagram TP3" />
   </component>
 </project>

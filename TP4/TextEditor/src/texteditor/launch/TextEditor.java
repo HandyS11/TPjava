@@ -14,14 +14,14 @@ public class TextEditor {
         Renderer renderer = new Renderer();
         KeyboardReader keyboardReader = new KeyboardReader();
 
-        MyFile myFile = new MyFile();
+        MyFile myFile = null;
         
         String file = "myFile";
         IDataLoader dataLoader = new DataLoader(file); //new Stub();
         IDataSaver dataSaver = new DataSaver(file);
         
         try {
-            myFile.setMyFile(dataLoader.load());
+            myFile = new MyFile(dataLoader.load());
         } catch (IOException e) {
             System.err.println("Error while loading datas! " + e);
         }
