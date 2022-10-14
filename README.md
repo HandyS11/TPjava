@@ -20,4 +20,4 @@ Theses 4 projects have been realized with [IntelliJ IDEA](https://www.jetbrains.
 
 ## Credits
 
-* Co-author: [**Valetin Clergue**](https://github.com/HandyS11)
+* Author: [**Valetin Clergue**](https://github.com/HandyS11)
